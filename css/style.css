@@ -85,18 +85,19 @@ nav ul li a:hover,.menu-btn a:hover {
     padding: 15px;
 
 }
-.container{   /* Common Style for this container */
-    width: 100%; /* Full width of the viewport */
-    max-width: 1440px; /* Limit width for larger screens */
-    margin: 0 auto; /* Center content */
-    padding: 100px 15px; /* Add padding for spacing */
-}
-.hero-container{
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 100px 15px;
+  }
+
+  .hero-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 100vh; /* Full viewport height */
-    gap:2rem;
+    height: 100vh;
+    gap: 2rem;
 }
 .hero-image{
     width: 50%; /* Adjust width as needed */
@@ -220,61 +221,64 @@ p{
     width: 65%;
 }
 
+/* why us box */
 .why-us{
     margin-top: 40px;
     display: flex;
-    gap: 2rem; /* Space between items */
-    flex-direction: column; /* Stack items vertically */
-    justify-content: center ;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
 .why-us-box{
-    
     display: flex;
     align-items: center;
-    background-color: #fff;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     width: 100%;
-    max-width: 800px; /* Limit width for larger screens */
-    cursor: pointer; /* Pointer cursor for hover effect */
-    transition: all 0.3s ease; 
+    max-width: 80%;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
 
-}
 .why-us-box:hover{
-    transform: scale(1.05); /* Slightly enlarge on hover */
+    transform: scale(1.05);
 }
+
 .icon-text{
     display: flex;
     align-items: center;
-    gap: 1rem; /* Space between icon and text */
+    gap: 1rem;
     height: 40px;
-    
-    
-    
-    
 }
+
 .icon{
     width: 48px;
     height: 48px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #EDFAFF;
+    background: #EDFAFF;
     border-radius: 50%;
-   
 }
+
 .icon img{
     width: 24px;
     height: 24px;
 }
+
 h3{
     font-size: 1rem;
     color: #333;
     line-height: 40px;
 }
+
 .arrow-icon{
-    margin-left: auto; /* Push arrow icon to the right */
+    margin-left: auto;
 }
+
 /* school section */
 .school-section{
     display: flex;
